@@ -33,7 +33,7 @@ Es una herramienta local de decisión pre-ejecución.
 
 ## Funciones
 
-- Consola brutal con menú.
+- Consola con menú.
 - Análisis de archivo individual.
 - Análisis de carpeta Descargas.
 - Auditor de PC / Install Advisor.
