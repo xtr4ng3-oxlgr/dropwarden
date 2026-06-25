@@ -1,0 +1,16 @@
+{
+  "name": "DROPWARDEN risk rules",
+  "author": "xtr4ng3",
+  "note": "Core rules are compiled into Python modules. This file documents the public model.",
+  "score_ranges": {
+    "0-25": "BAJO",
+    "26-50": "MODERADO",
+    "51-75": "REVISAR",
+    "76-100": "ALTO RIESGO"
+  },
+  "principles": [
+    "Never execute samples",
+    "Score signals, not fear",
+    "Manual review before running unknown files"
+  ]
+}
