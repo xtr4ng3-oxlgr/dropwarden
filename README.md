@@ -1,5 +1,8 @@
 # DROPWARDEN
 
+<img width="1672" height="941" alt="drw" src="https://github.com/user-attachments/assets/11356141-3059-42af-bde2-e73f38b7339f" />
+
+
 **DROPWARDEN** es una consola defensiva para revisar archivos descargados, instaladores, scripts, ZIPs, entradas de inicio y salud básica de instalación antes de ejecutar o instalar cosas en Windows.
 
 Creado por **xtr4ng3**.
@@ -126,9 +129,10 @@ No modifica el sistema.
 No transmite datos.
 
 ---
+# Licencia
 
-## Licencia
-
-MIT.
+<img width="300" height="159" alt="giphy (25)" src="https://github.com/user-attachments/assets/021720ff-3aec-4916-9a93-25d47afd7d97" />
 
 **xtr4ng3**
+
+MIT.
